@@ -1,0 +1,51 @@
+framework,criterion,code,evidence (quote or page-level note)
+Leo et al. [1],C1 Implemented artifact,N,"""This paper investigates a hypothetical implementation of 'RoboPMS'"""
+Leo et al. [1],C2 Agentic evaluation,N,No agent executed; risk matrix applied to hypothetical system
+Leo et al. [1],C3 Explicit threat model,P,Layered threat catalogue (Appendix A); no attacker knowledge/capability model
+Leo et al. [1],C4 Adaptive attacker,N,Not discussed
+Leo et al. [1],C5 Long-horizon attacks,P,"Cascading and self-reinforcing threats rated in Table 2, not tested"
+Leo et al. [1],C6 Multi-agent setting,P,RoboPMS multi-agent architecture; multi-agent threats rated not tested
+Leo et al. [1],C7 Quantitative metrics,P,Ordinal likelihood/impact scores; 24 of 28 risks rated Medium
+Leo et al. [1],C8 Reproducible results,N,"""we do not assess whether the system has any vulnerabilities"""
+Leo et al. [1],C9 Cost of defense,N,Not reported
+Leo et al. [1],C10 Artifacts released,N,"""Data sharing is not applicable to this article as no new data..."""
+MAAIS [2],C1 Implemented artifact,N,Conceptual layered framework
+MAAIS [2],C2 Agentic evaluation,N,"""Framework validation is conducted by mapping with the established MITRE ATLAS"""
+MAAIS [2],C3 Explicit threat model,P,ATLAS tactics used as threat reference
+MAAIS [2],C4 Adaptive attacker,N,Not discussed
+MAAIS [2],C5 Long-horizon attacks,N,Not discussed
+MAAIS [2],C6 Multi-agent setting,N,Multi-agent mentioned only in references
+MAAIS [2],C7 Quantitative metrics,N,None defined
+MAAIS [2],C8 Reproducible results,N,"""We conducted a preliminary exercise to map potential..."""
+MAAIS [2],C9 Cost of defense,N,Not reported
+MAAIS [2],C10 Artifacts released,N,None
+AGENTSAFE [3],C1 Implemented artifact,N,Framework and validation plan only
+AGENTSAFE [3],C2 Agentic evaluation,N,"Section 4 'Validation Plan': evaluation is future (""will be quantitatively measured"")"
+AGENTSAFE [3],C3 Explicit threat model,P,Risk taxonomy and register; no attacker capability model
+AGENTSAFE [3],C4 Adaptive attacker,N,Not discussed
+AGENTSAFE [3],C5 Long-horizon attacks,P,"Plan drift, hallucination-to-action cascades discussed"
+AGENTSAFE [3],C6 Multi-agent setting,P,Discussed (7 mentions); not tested
+AGENTSAFE [3],C7 Quantitative metrics,Y,"Prompt-injection block rate, exfiltration recall, hallucination-to-action rate, interruptibility success, Risk Coverage Score"
+AGENTSAFE [3],C8 Reproducible results,N,No results reported
+AGENTSAFE [3],C9 Cost of defense,N,No false-positive or utility metric
+AGENTSAFE [3],C10 Artifacts released,N,None
+Radanliev et al. [4],C1 Implemented artifact,P,"FGSM and C&W implemented on MobileNetV2 and MNIST CNN (vision, not agents)"
+Radanliev et al. [4],C2 Agentic evaluation,N,"Agent-level threats ""should be interpreted as hypotheses"""
+Radanliev et al. [4],C3 Explicit threat model,P,White-box/black-box attack types coded; no agent attacker model
+Radanliev et al. [4],C4 Adaptive attacker,N,Not evaluated
+Radanliev et al. [4],C5 Long-horizon attacks,P,"Temporal / staged attacks and cumulative divergence hypothesised"
+Radanliev et al. [4],C6 Multi-agent setting,N,Not discussed
+Radanliev et al. [4],C7 Quantitative metrics,Y,"ASR, L2 perturbation norm, robust accuracy"
+Radanliev et al. [4],C8 Reproducible results,P,Setup described (epsilons; optimiser) but on non-agentic proxy
+Radanliev et al. [4],C9 Cost of defense,P,Clean vs robust accuracy gap (vision)
+Radanliev et al. [4],C10 Artifacts released,P,"""included in the article/supplementary material""; no code repository"
+TAZAI [6],C1 Implemented artifact,N,"""Given the conceptual nature of the study"""
+TAZAI [6],C2 Agentic evaluation,N,STRIDE mapping and narrative clinical-assistant scenario
+TAZAI [6],C3 Explicit threat model,P,Section 3 threat model; STRIDE categories; no attacker knowledge model
+TAZAI [6],C4 Adaptive attacker,N,Not discussed
+TAZAI [6],C5 Long-horizon attacks,N,Not tested
+TAZAI [6],C6 Multi-agent setting,P,Section 5.4 mean group trust; not tested
+TAZAI [6],C7 Quantitative metrics,Y,"Table 6: DR, FPR, MTTD, access violation rate"
+TAZAI [6],C8 Reproducible results,N,"Table 7: DR 62%->91%, FPR 18%->7% with no data, attacks, baseline or sample size described"
+TAZAI [6],C9 Cost of defense,P,FPR defined; value given without setup; no utility cost
+TAZAI [6],C10 Artifacts released,N,None
