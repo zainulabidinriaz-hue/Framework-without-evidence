@@ -1,6 +1,6 @@
 # Frameworks Without Evidence? — Supplementary Material
 
-Code and data for the article *"Frameworks Without Evidence? A Validation Audit of Agentic AI Security Frameworks and a Formal Analysis of Runtime Trust Scoring"* by Zain Ul Abidin Riaz et al.
+Code and data for the article *"Frameworks Without Evidence? A Validation Audit of Agentic AI Security Frameworks and a Formal Analysis of Runtime Trust Scoring"* by Zain Ul Abidin Riaz, Farah Haneef, Ayesha Riaz and Bilal Riaz
 
 ## Files
 
