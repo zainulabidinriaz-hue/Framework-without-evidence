@@ -13,7 +13,7 @@ Code and data for the article *"Frameworks Without Evidence? A Validation Audit 
 
 ## Reproducing the results
 
-Requirements: Python 3.9 or later and NumPy.
+Requirements: Python 3.9 or later, NumPy and Matplotlib.
 
 ```bash
 pip install numpy matplotlib
